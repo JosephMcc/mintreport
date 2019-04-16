@@ -130,9 +130,6 @@
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <child>
-                  <placeholder/>
-                </child>
-                <child>
                   <object class="GtkBox">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
@@ -172,7 +169,6 @@
                   </object>
                   <packing>
                     <property name="name">page_error</property>
-                    <property name="position">1</property>
                   </packing>
                 </child>
                 <child>
@@ -263,9 +259,6 @@
                                 <property name="label" translatable="yes">When seeking help, check for existing bug reports, pastebin the trace, share crash.tar.gz (from Local Files) and explain how to reproduce the crash.</property>
                                 <property name="wrap">True</property>
                                 <property name="xalign">0</property>
-                                <attributes>
-                                  <attribute name="scale" value="0.90000000000000002"/>
-                                </attributes>
                               </object>
                               <packing>
                                 <property name="expand">False</property>
@@ -365,9 +358,6 @@
                                 <property name="label" translatable="yes">Developers need to know where the code fails or how to reproduce the issue. Always provide a trace and reliable instructions to trigger/observe the problem.</property>
                                 <property name="wrap">True</property>
                                 <property name="xalign">0</property>
-                                <attributes>
-                                  <attribute name="scale" value="0.90000000000000002"/>
-                                </attributes>
                               </object>
                               <packing>
                                 <property name="expand">False</property>
@@ -391,7 +381,7 @@
                   </object>
                   <packing>
                     <property name="name">page_reports</property>
-                    <property name="position">2</property>
+                    <property name="position">1</property>
                   </packing>
                 </child>
               </object>
@@ -557,9 +547,6 @@
                             <property name="label" translatable="yes">Note: Information reports can only be shown in English.</property>
                             <property name="wrap">True</property>
                             <property name="xalign">0</property>
-                            <attributes>
-                              <attribute name="scale" value="0.90000000000000002"/>
-                            </attributes>
                           </object>
                           <packing>
                             <property name="expand">False</property>
